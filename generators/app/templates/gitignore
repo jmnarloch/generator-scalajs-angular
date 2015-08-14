@@ -1,0 +1,15 @@
+target
+.history
+bin
+logs
+.cache
+
+# Eclipse
+.project
+.classpath
+.settings
+
+# IntelliJ
+.idea
+.idea_modules
+atlassian-ide-plugin.xml

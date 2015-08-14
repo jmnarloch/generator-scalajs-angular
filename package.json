@@ -1,0 +1,30 @@
+{
+  "name": "generator-scalajs-angular",
+  "version": "0.0.0",
+  "description": "Yeoman Scala.js Angular + Play backend generator",
+  "license": "Apache 2.0",
+  "main": "app/index.js",
+  "repository": "jmnarloch/generator-scalajs-angular",
+  "author": {
+    "name": "Jakub Narloch",
+    "email": "",
+    "url": "https://github.com/jmnarloch"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "files": [
+    "generators"
+  ],
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "dependencies": {
+    "yeoman-generator": "^0.20.0",
+    "chalk": "^1.0.0",
+    "yosay": "^1.0.2"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  }
+}
