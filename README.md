@@ -1,4 +1,4 @@
-# generator-scalajs-angular [![Build Status](https://secure.travis-ci.org/jmnarloch/generator-scalajs-angular.png?branch=master)](https://travis-ci.org/jmnarloch/generator-scalajs-angular)
+# Generator Scala.js Angular [![Build Status](https://secure.travis-ci.org/jmnarloch/generator-scalajs-angular.png?branch=master)](https://travis-ci.org/jmnarloch/generator-scalajs-angular)
 
 > [Yeoman](http://yeoman.io) [Scala.js Angular](https://github.com/greencatsoft/scalajs-angular) generator
 
