@@ -62,6 +62,10 @@ module.exports = yeoman.generators.Base.extend({
   },
 
   install: function () {
-    this.runInstall('sbt', ['compile'])
+    if (this.options.skipInstall) {
+      return this;
+    }
+
+    this.spawnCommand('sbt', ['compile']);
   }
 });
