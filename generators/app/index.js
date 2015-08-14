@@ -4,8 +4,7 @@ var chalk = require('chalk');
 var yosay = require('yosay');
 
 module.exports = yeoman.generators.Base.extend({
-  prompting: function () {
-    var done = this.async();
+  initializing: function () {
 
     // Have Yeoman greet the user.
     this.log(yosay(
@@ -17,9 +16,7 @@ module.exports = yeoman.generators.Base.extend({
         this.templatePath(dir + src),
         this.destinationPath(dir + dest)
       );
-    }.bind(this)
-
-    done();
+    }.bind(this);
   },
 
   writing: {
@@ -65,6 +62,6 @@ module.exports = yeoman.generators.Base.extend({
   },
 
   install: function () {
-    this.spawnCommand('sbt', ['compile']);
+    this.runInstall('sbt', ['compile'])
   }
 });
