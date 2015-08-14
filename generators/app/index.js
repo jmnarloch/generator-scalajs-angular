@@ -66,6 +66,7 @@ module.exports = yeoman.generators.Base.extend({
       return this;
     }
 
+    this.log('Running sbt compile');
     this.spawnCommand('sbt', ['compile']);
   }
 });
