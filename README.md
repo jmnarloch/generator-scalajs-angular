@@ -1,12 +1,14 @@
-# Generator Scala.js Angular [![Build Status](https://secure.travis-ci.org/jmnarloch/generator-scalajs-angular.png?branch=master)](https://travis-ci.org/jmnarloch/generator-scalajs-angular)
+# Generator Scala.js Angular [![Build Status](https://secure.travis-ci.org/jmnarloch/generator-scalajs-angular.png?branch=master)](https://travis-ci.org/jmnarloch/generator-scalajs-angular) [![npm version](https://badge.fury.io/js/generator-scalajs-angular.svg)](http://badge.fury.io/js/generator-scalajs-angular)
 
 > [Yeoman](http://yeoman.io) [Scala.js Angular](https://github.com/greencatsoft/scalajs-angular) generator
 
-This generator is based on the fabulous Scala.js Angular example: https://github.com/greencatsoft/scalajs-angular-todomvc
+This generator is based on the fabulous Scala.js Angular example: [https://github.com/greencatsoft/scalajs-angular-todomvc](https://github.com/greencatsoft/scalajs-angular-todomvc)
 
 ## Getting Started
 
-Make sure that you have `sbt` installed. Install the Yeoman generator.
+Make sure that you have `sbt` installed, if not simply fallow the [instructions for your operating system](http://www.scala-sbt.org/0.13/tutorial/Setup.html). 
+
+Install the Yeoman generator.
 
 ```bash
 npm install -g generator-scalajs-angular
@@ -20,17 +22,21 @@ yo scalajs-angular
 
 This will scaffold the project structure and run `sbt compile`.
 
-Note: First run might take some time dou to dependencies download.
+Note: First run might take some time due to dependencies download.
  
 ## Running
 
-When the generator finish it work execute:
+When the generator has finished it work execute:
 
 ```
 sbt run
 ```
 
 Navigate to http://localhost:9000 in your browser.
+
+You should see similar page:
+
+![TodoMVC Example](/todo-app.png?raw=true "TodoMVC example")
 
 ## License
 
