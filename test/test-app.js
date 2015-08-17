@@ -15,6 +15,7 @@ describe('scalajs-angular:app', function () {
   it('creates files', function () {
     assert.file([
       '.gitignore',
+      'build.sbt',
       'project/build.properties',
       'project/Build.scala',
       'project/plugins.sbt',

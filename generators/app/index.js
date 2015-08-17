@@ -21,6 +21,7 @@ module.exports = yeoman.generators.Base.extend({
 
   writing: {
     project: function() {
+      this.copy('', '_build.sbt', 'build.sbt');
       this.copy('project/', '_build.properties', 'build.properties');
       this.copy('project/', '_Build.scala', 'Build.scala');
       this.copy('project/', '_plugins.sbt', 'plugins.sbt');
