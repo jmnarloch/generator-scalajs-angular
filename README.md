@@ -32,7 +32,7 @@ When the generator has finished it work execute:
 sbt run
 ```
 
-Navigate to http://localhost:9000 in your browser.
+Navigate to [http://localhost:9000](http://localhost:9000) in your browser.
 
 You should see similar page:
 
