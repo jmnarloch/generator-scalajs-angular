@@ -1,6 +1,6 @@
 {
   "name": "generator-scalajs-angular",
-  "version": "1.0.4",
+  "version": "1.1.0",
   "description": "Yeoman Scala.js Angular + Play backend generator",
   "license": "Apache 2.0",
   "main": "app/index.js",
