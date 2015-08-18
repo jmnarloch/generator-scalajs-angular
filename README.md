@@ -1,4 +1,4 @@
-# Generator Scala.js Angular [![Build Status](https://secure.travis-ci.org/jmnarloch/generator-scalajs-angular.png?branch=master)](https://travis-ci.org/jmnarloch/generator-scalajs-angular) [![npm version](https://badge.fury.io/js/generator-scalajs-angular.svg)](http://badge.fury.io/js/generator-scalajs-angular)
+# Generator Scala.js Angular [![Build Status](https://secure.travis-ci.org/jmnarloch/generator-scalajs-angular.png?branch=master)](https://travis-ci.org/jmnarloch/generator-scalajs-angular) [![npm version](https://badge.fury.io/js/generator-scalajs-angular.svg)](http://badge.fury.io/js/generator-scalajs-angular) [![Dependency Status](https://david-dm.org/jmnarloch/generator-scalajs-angular.svg)](https://david-dm.org/jmnarloch/generator-scalajs-angular) [![devDependency Status](https://david-dm.org/jmnarloch/generator-scalajs-angular/dev-status.svg)](https://david-dm.org/jmnarloch/generator-scalajs-angular#info=devDependencies)
 
 > [Yeoman](http://yeoman.io) [Scala.js Angular](https://github.com/greencatsoft/scalajs-angular) generator
 
