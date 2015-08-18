@@ -17,11 +17,35 @@ module.exports = yeoman.generators.Base.extend({
         this.destinationPath(dir + dest)
       );
     }.bind(this);
+
+    this.template = function (dir, src, dest) {
+      this.fs.copyTpl(
+        this.templatePath(dir + src),
+        this.destinationPath(dir + dest),
+        this.props
+      );
+    }.bind(this);
+  },
+
+  prompting: function () {
+    var done = this.async();
+
+    var prompts = [{
+      type: 'list',
+      name: 'jsRuntime',
+      message: 'Choose your runtime',
+      choices: ['RhinoJS', 'NodeJS']
+    }];
+
+    this.prompt(prompts, function (props) {
+      this.props = props;
+      done();
+    }.bind(this));
   },
 
   writing: {
     project: function() {
-      this.copy('', '_build.sbt', 'build.sbt');
+      this.template('', '_build.sbt', 'build.sbt');
       this.copy('project/', '_build.properties', 'build.properties');
       this.copy('project/', '_Build.scala', 'Build.scala');
       this.copy('project/', '_plugins.sbt', 'plugins.sbt');
