@@ -36,7 +36,7 @@ Navigate to [http://localhost:9000](http://localhost:9000) in your browser.
 
 You should see similar page:
 
-![TodoMVC Example](/todo-app.png?raw=true "TodoMVC example")
+![TodoMVC Example](https://github.com/jmnarloch/generator-scalajs-angular/raw/master/todo-app.png "TodoMVC example")
 
 ## License
 
