@@ -24,6 +24,25 @@ This will scaffold the project structure and run `sbt compile`.
 
 Note: First run might take some time due to dependencies download.
  
+## Directory structure
+
+```
+.
+├── build.sbt
+├── project
+│   ├── Build.scala
+│   ├── build.properties
+│   ├── plugins.sbt
+├── scalajs
+│   ├── src
+└── scalajvm
+    ├── app
+    ├── conf
+    ├── public
+```
+
+Scalajvm contains the Play backend. Scalajs the Scala.js Angular application.
+
 ## Running
 
 When the generator has finished it work execute:
@@ -37,6 +56,7 @@ Navigate to [http://localhost:9000](http://localhost:9000) in your browser.
 You should see similar page:
 
 ![TodoMVC Example](https://github.com/jmnarloch/generator-scalajs-angular/raw/master/todo-app.png "TodoMVC example")
+
 
 ## License
 
